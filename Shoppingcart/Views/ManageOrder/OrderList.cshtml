@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Shoppingcart.Models.Order>
+
+@{
+    ViewData["Title"] = "OrderList";
+}
+
+<h1>訂單列表</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RecieverName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecieverPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecieverAddress)
+            </th>
+            <th>訂單明細</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecieverName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecieverPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecieverAddress)
+            </td>
+            <td>
+                @Html.ActionLink("訂單明細", "OrderDetails", new {  id=item.OrderId  }, new { @class = "btn btn-primary"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

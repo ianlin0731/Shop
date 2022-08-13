@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Shoppingcart.Models.Cart>
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<h1>購物車列表</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.ActionLink("刪除", "Delete", new {  id=item.CartId  },new { @class = "btn btn-primary"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<h1>結帳資訊</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="LoginDB" asp-action="Order" method="post">
+             <div class="form-group">
+                <label class="control-label">收貨人姓名</></label>
+                <input type="text" class="form-control" name="RecieverName" id="RecieverName" /><br/>
+            </div>
+            <div class="form-group">
+                <label class="control-label">收貨人電話</></label>
+                <input type="text" class="form-control" name="RecieverPhone" id="RecieverPhone" /><br/>
+            </div>
+            <div class="form-group">
+                <label class="control-label">收貨人地址</></label>
+                <input type="text" class="form-control" name="RecieverAddress" id="RecieverAddress" /><br/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="確定購買" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

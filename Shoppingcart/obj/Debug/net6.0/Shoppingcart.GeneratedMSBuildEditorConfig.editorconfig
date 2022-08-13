@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Shoppingcart
+build_property.RootNamespace = Shoppingcart
+build_property.ProjectDir = C:\Users\yingyen\Documents\Visual Studio 2022\Projects\Shoppingcart\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\yingyen\Documents\Visual Studio 2022\Projects\Shoppingcart
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/MyOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxNeU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/MyOrderDeatils.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxNeU9yZGVyRGVhdGlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxPcmRlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/LoginDB/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxPcmRlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/ManageOrder/MyOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlT3JkZXJcTXlPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/ManageOrder/MyOrderDeatils.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlT3JkZXJcTXlPcmRlckRlYXRpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/ManageOrder/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlT3JkZXJcT3JkZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/ManageOrder/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlT3JkZXJcT3JkZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Shop/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yingyen/Documents/Visual Studio 2022/Projects/Shoppingcart/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m96omz13zf

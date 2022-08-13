@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Shoppingcart.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+.ProductImg{
+    height:250px;
+}
+</style>
+
+<div class="row">
+    @foreach(var product in Model)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                @{  string str = "/Images/" + Html.Raw(product.FileUploadFileName);
+  
+                }
+                <img class="ProductImg" src="@str" alt="商品圖片">
+                <div class="caption"><br/>  
+                    <h3>@product.Name</h3>
+                    <p>售價 : @product.Price</p>
+                    <p>
+                        @Html.ActionLink("詳細資訊", "Details", new { id=product.ProductId},new { @class = "btn btn-primary"})  
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
