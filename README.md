@@ -1,7 +1,7 @@
 # 購物網站
 
 <hr/>
-使用ASP.NET Core完成功能:
+<h3>使用ASP.NET Core完成功能:</h3>
 
 LoginDBController:使用者登入(Cookie)、登出<br/>
 ProductController:管理商品新增、列表、明細、修改、刪除<br/>
